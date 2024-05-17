@@ -1,0 +1,12 @@
+content: |-
+  # ALZ.Management 
+  This project deploys the central log analytics workspace and automation account along with Log Analytics Solutions.  It also enables Defender for Cloud and deploys the Sentinel workspace. 
+
+  Further details can be found here: https://github.com/Azure/terraform-azurerm-caf-enterprise-scale/wiki/%5BUser-Guide%5D-Management-Resources
+
+  # Customisation
+  This module is designed to be customised to your requirements.  Details on customisation can be found here: https://github.com/Azure/terraform-azurerm-caf-enterprise-scale/wiki/%5BExamples%5D-Deploy-Management-Resources-With-Custom-Settings
+
+  {{ .Inputs }}
+
+  {{ .Outputs }}
